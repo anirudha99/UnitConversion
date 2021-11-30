@@ -14,6 +14,8 @@
 		1C1F6A4B27135D3A005D1BE0 /* UnitConversion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F6A4927135D3A005D1BE0 /* UnitConversion.xcdatamodeld */; };
 		1C1F6A4D27135D3D005D1BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F6A4C27135D3D005D1BE0 /* Assets.xcassets */; };
 		1C1F6A5027135D3D005D1BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1F6A4E27135D3D005D1BE0 /* LaunchScreen.storyboard */; };
+		1C1F6A58271360B7005D1BE0 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1F6A57271360B7005D1BE0 /* Unit.swift */; };
+		1CC3CFB62716981D006061F5 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3CFB52716981D006061F5 /* Temperature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1C1F6A4C27135D3D005D1BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C1F6A4F27135D3D005D1BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C1F6A5127135D3D005D1BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1F6A57271360B7005D1BE0 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		1CC3CFB52716981D006061F5 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				1C1F6A4227135D3A005D1BE0 /* SceneDelegate.swift */,
 				1C1F6A4427135D3A005D1BE0 /* ViewController.swift */,
 				1C1F6A4627135D3A005D1BE0 /* Main.storyboard */,
+				1C1F6A57271360B7005D1BE0 /* Unit.swift */,
+				1CC3CFB52716981D006061F5 /* Temperature.swift */,
 				1C1F6A4C27135D3D005D1BE0 /* Assets.xcassets */,
 				1C1F6A4E27135D3D005D1BE0 /* LaunchScreen.storyboard */,
 				1C1F6A5127135D3D005D1BE0 /* Info.plist */,
@@ -141,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1F6A58271360B7005D1BE0 /* Unit.swift in Sources */,
 				1C1F6A4527135D3A005D1BE0 /* ViewController.swift in Sources */,
+				1CC3CFB62716981D006061F5 /* Temperature.swift in Sources */,
 				1C1F6A4B27135D3A005D1BE0 /* UnitConversion.xcdatamodeld in Sources */,
 				1C1F6A4127135D3A005D1BE0 /* AppDelegate.swift in Sources */,
 				1C1F6A4327135D3A005D1BE0 /* SceneDelegate.swift in Sources */,
